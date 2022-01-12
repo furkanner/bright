@@ -207,7 +207,9 @@ li a {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 25px;
+    flex-wrap: wrap;
 }
 
 .text img{
@@ -217,8 +219,9 @@ li a {
     margin-right: 25px;
 }
 
-.section{
+.section {
     display: block;
+    flex: 1;
 }
 
 .section h1{
@@ -242,6 +245,8 @@ li a {
     padding: 25px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: #f9f9f9;
 }
 
@@ -255,6 +260,7 @@ li a {
 
 .section-{
     display: block;
+    flex: 1;
 }
 
 .section- h1{
@@ -662,15 +668,15 @@ p,
 }
 
 
+/* Mobile only codes */
+@media screen and (max-width: 700px) {
+    .text img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    .text-text img {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
