@@ -16,6 +16,9 @@
     color:palevioletred;
     background: powderblue;
 }
+.main-content .container{
+    width: 700px;
+}
 
 .container{
     height: 500px;
