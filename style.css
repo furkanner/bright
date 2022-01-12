@@ -18,7 +18,6 @@
 }
 
 .container{
-    width: 500px;
     height: 500px;
     margin: 0 auto;
     position: relative;
@@ -205,27 +204,21 @@ li a {
 }
 
 .text  {
-    height: 500px;
     width: 100%;
-    
+    display: flex;
+    align-items: center;
+    padding: 25px;
 }
 
 .text img{
     height:400px;
     width: 400px;
-    margin:60px;
-    margin-left: 50px;
     border-radius: 13rem;
-    
+    margin-right: 25px;
 }
 
 .section{
     display: block;
-    float: right;
-    height: 400px;
-    width: 900px;
-    margin-top: 70;
-    
 }
 
 .section h1{
@@ -233,51 +226,44 @@ li a {
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.5rem;
-    margin-right: 20px;
 }
 
-.section h2{
-    margin-top: 15px;
+.section p{
+    margin-top: 20px;
     font-size: 20px;
-    line-height: 2.1rem;
-    margin-right: 20px;
+    line-height: 1.6rem;
 }
-.text-text{
-    height: 500px;
-    width: 100%;
 
-   
+
+
+
+.text-text{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
 }
 
 .text-text img{
     height:400px;
     width: 400px;
-    margin:60px;
-    margin-left: 50px;
     border-radius: 13rem;
-    float:right;
+    margin-left: 25px;
 }
+
+
 .section-{
     display: block;
-    float: left;
-    height: 400px;
-    width: 900px;
-    margin-top: 70;
 }
 
 .section- h1{
-    margin-left: 70px;
     font-size: 25px;
-}
-.total{
-    height: 400px;
-    width: 950px;
 }
 .total p{
     line-height: 2rem;
     color: black;
     font-size: 18px;
-    margin-left: 40px;
 }
 /*.total h2{
     font-size: 18px;
@@ -469,11 +455,6 @@ color:#e66667;
 
 }
 
-.footer-header {
-    margin-top: 100px;
-    height: 600px;
-}
-
 .section-title {
     margin-bottom: 38px
 }
@@ -584,9 +565,13 @@ p,
     width: 100%;
     background: whitesmoke;
     margin: 0px;
-    
-    
 }
+
+.footer-header .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .col-lg-12 p{
     font-size: 25px;
     color: black;
@@ -604,7 +589,6 @@ p,
     height: 250px;
     width: 320px;
     display: flex;
-    float: left;
     padding: 10px;
     margin-left:20px;
     margin-right:20px;   
